@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    
+}
+
+.logo {
+    width: 64px;
+    height: 50px;
+    margin: 10px;
+    
+}
+
+.search-bar {
+    display: flex;
+    align-items: center; /* Centering vertically */
+}
+
+.filters {
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+.restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hotel-card {
+    width: calc(25% - 20px); /* 25% width for each card with margin */
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    display: flex;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow */
+    flex: 1; /* To allow flex items to grow and shrink */
+    max-width: 700px; /* Maximum width for each card */
+    min-width: 400px; /* Minimum width for each card */
+    min-height: 250px;
+}
+
+
+
+.hotel-location {
+    background: orange;
+    
+    padding: 5px;
+    color: white;
+    border-radius: 5px; /* Rounded corners */
+}
+
+
+
+.hotel-image {
+    flex: 40%;
+    margin-right: 5px;
+    /* Add any other necessary styling */
+}
+
+.hotel-description {
+    margin: auto;
+    flex: 60%;
+    /* Add any other necessary styling */
+}
+
+.hotel-name {
+    font-weight: bold;
+    margin-bottom: 5px; /* Added margin for separation */
+    margin-left: 10px;
+}
+.hotel-cost{
+    font-weight: bold;
+    margin-bottom: 5px; /* Added margin for separation */
+    margin-left: 10px;   
+}
+
+.hotel-tags {
+    margin-bottom: 5px;
+    font-size: 12px; /* Increased font size */
+}
+
+
+
+
+
+#search {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+#sortby {
+    padding: 10px;
+    position: absolute;
+    left: 3%;
+}
+.hotel-image{
+width: 100%;
+height: 100%;
+border-radius: 5px;
+overflow: hidden;
+position: relative;
+}
+
+.hotel-image img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+
+
+/* Basic button styling */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Number picker container styling */
+  .number-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Number input field styling */
+  input {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
